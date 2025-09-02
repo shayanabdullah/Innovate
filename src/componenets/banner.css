@@ -1,0 +1,40 @@
+.banner{
+    background-image: url('../assets/banner-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.overlay{
+    position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+}
+.square{
+    position: absolute;
+
+}
+
+@media(max-width:420px) {
+    .input input{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .in-btn{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+}
+@media(max-width:420px) {
+  .banner-text{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+}

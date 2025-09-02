@@ -1,0 +1,90 @@
+.navber-sec {
+    background: #07234D;
+    background: linear-gradient((#061f46 0%, #07234d 20%, #04152e 56%, #000000 100%));
+}
+
+.overlay-2 {
+    position: fixed;
+    background: #ffffff29;
+    backdrop-filter: blur(40px);
+    inset: 0;
+    z-index: 98;
+  display: none;
+}
+
+.icons .bar {
+    opacity: 0;
+}
+
+.down-i {
+    font-size: 25px;
+}
+
+.close{
+    opacity: 0;
+}
+
+@media (max-width:870px) {
+
+    .navber {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: min(350px, 100%);
+        height: 100vh;
+        flex-direction: column;
+        background: #07234D;
+        padding: 40px 20px;
+        z-index: 100;
+        gap: 20px;
+        transition: left 200ms ease-in-out;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .navber a {
+        width: 100%;
+    }
+
+    .navber .nav-btn {
+        width: 150px;
+        margin-top: 20px;
+
+    }
+
+    .navber.show {
+        left: 0;
+    }
+
+    .overlay-2.show {
+       display: block;
+    }
+
+    .icons .bar {
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        font-size: 30px;
+        z-index: 99;
+        opacity: 1;
+    }
+
+    .close {
+        position: absolute;
+        top: -2%;
+        left: 100%;
+        transform: translateX(-100%);
+        font-size: 30px;
+        z-index: 99;
+        color: white;
+        opacity: 1;
+    }
+}
