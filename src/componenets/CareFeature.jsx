@@ -28,27 +28,29 @@ const CareFeature = () => {
 
                     <div className="right lg:w-3/5">
                         <div className="flex flex-col items-center gap-y-9 w-full">
-                            <div className="card-1 lg:py-9 py-7 lg:pl-9 md:pl-8 sm:pl-7 pl-6 bg-[#F0EDFF] rounded-2xl flex gap-10 ">
-                                <Images src={card1}/>
+                            <div className="card-1 lg:py-9 py-7 lg:pl-9 md:pl-8 sm:pl-7 pl-6 bg-[#F0EDFF] rounded-2xl flex gap-y-10 lg:gap-x-10 md:gap-x-7 sm:gap-x-6 gap-x-5" >
+                                <Images src={card1} className='w-[80px]  h-[80px] sm:w-[100px] sm:h-[100px] md:h-[100px]  md:w-[120px] lg:w-[120px] lg:h-[120px] '/>
                                 <div className="text">
-                                    <h2 className='font-popins font-semibold text-[28px] text-[#29313D]'>SEO Consultancy</h2>
-                                    <p className=' font-nurito font-regular text-[#29313D]  text-lg leading[200%] lg:pr-[120px] md:pr-[100px] ms:pr-[80px] pr-[60px] '>Nam libero tempore, cum soluta nobis est <span className="block">eligendi optio cumque</span> </p>
+                                    <h2 className='font-popins font-semibold lg:text-[28px] text-[#29313D] md:text-xl sm:text-xl text-lg'>SEO Consultancy</h2>
+                                    <p className=' font-nurito font-regular text-[#29313D]  lg:text-lg md:text-lg sm:text-[16px] text-[14px] leading[200%] lg:pr-[120px] md:pr-[100px] sm:pr-[80px] pr-[40px] '>Nam libero tempore, cum soluta nobis est <span className="block">eligendi optio cumque</span> </p>
                                 </div>
                             </div>
-                            <div className="card-2 lg:py-9 py-7 lg:pl-9 md:pl-8 sm:pl-7 pl-6 bg-[#F0EDFF] rounded-2xl flex gap-10 ">
-                                <Images src={card2}/>
+                            <div className="card-2 lg:py-9 py-7 lg:pl-9 md:pl-8 sm:pl-7 pl-6 bg-[#F0EDFF] rounded-2xl flex gap-y-10 lg:gap-x-10 md:gap-x-7 sm:gap-x-6 gap-x-5" >
+                                <Images src={card2} className='w-[80px]  h-[80px] sm:w-[100px] sm:h-[100px] md:h-[100px]  md:w-[120px] lg:w-[120px] lg:h-[120px] '/>
                                 <div className="text">
-                                    <h2 className='font-popins font-semibold text-[28px] text-[#29313D]'>Competitor analysis</h2>
-                                    <p className=' font-nurito font-regular text-[#29313D]  text-lg leading[200%] lg:pr-[120px] md:pr-[100px] ms:pr-[80px] pr-[60px] '>Nam libero tempore, cum soluta nobis est <span className="block">eligendi optio cumque</span> </p>
+                                    <h2 className='font-popins font-semibold lg:text-[28px] text-[#29313D] md:text-xl sm:text-xl text-lg'>Competitor analysis</h2>
+                                    <p className=' font-nurito font-regular text-[#29313D]  lg:text-lg md:text-lg sm:text-[16px] text-[14px] leading[200%] lg:pr-[120px] md:pr-[100px] sm:pr-[80px] pr-[40px] '>Nam libero tempore, cum soluta nobis est <span className="block">eligendi optio cumque</span> </p>
                                 </div>
                             </div>
-                            <div className="card-3 lg:py-9 py-7 lg:pl-9 md:pl-8 sm:pl-7 pl-6 bg-[#F0EDFF] rounded-2xl flex gap-10 ">
-                                <Images src={card3}/>
+                            <div className="card-3 lg:py-9 py-7 lg:pl-9 md:pl-8 sm:pl-7 pl-6 bg-[#F0EDFF] rounded-2xl flex gap-y-10 lg:gap-x-10 md:gap-x-7 sm:gap-x-6 gap-x-5" >
+                                <Images src={card3} className='w-[80px]  h-[80px] sm:w-[100px] sm:h-[100px] md:h-[100px]  md:w-[120px] lg:w-[120px] lg:h-[120px] '/>
                                 <div className="text">
-                                    <h2 className='font-popins font-semibold text-[28px] text-[#29313D]'>Social media marketing</h2>
-                                    <p className=' font-nurito font-regular text-[#29313D]  text-lg leading[200%] lg:pr-[120px] md:pr-[100px] ms:pr-[80px] pr-[60px] '>Nam libero tempore, cum soluta nobis est <span className="block">eligendi optio cumque</span> </p>
+                                    <h2 className='font-popins font-semibold lg:text-[28px] text-[#29313D] md:text-xl sm:text-xl text-lg'>Social media marketing</h2>
+                                    <p className=' font-nurito font-regular text-[#29313D]  lg:text-lg md:text-lg sm:text-[16px] text-[14px] leading[200%] lg:pr-[120px] md:pr-[100px] sm:pr-[80px] pr-[40px] '>Nam libero tempore, cum soluta nobis est <span className="block">eligendi optio cumque</span> </p>
                                 </div>
                             </div>
+                         
+                           
 
                         </div>
                     </div>
