@@ -1,6 +1,6 @@
     import React, { useState } from 'react'
     import './navber.css'
-    import logo from "../assets/logo.png"
+    import logo from "../assets/Logo.png"
     import { FaArrowDown, FaCaretDown, FaSortDown } from 'react-icons/fa'
     import { FaBars } from "react-icons/fa";
     import { RxCross2 } from "react-icons/rx";
