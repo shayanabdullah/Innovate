@@ -7,8 +7,15 @@
     <title>Innovate</title>
   </head>
   <body>
+    <div id="loader"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script src="/src/navber.js"></script>
+    <script>
+      let loader = document.getElementById('loader')
+      window.addEventListener("load", function(){
+        loader.style.display = "none"
+      })
+    </script>
+
   </body>
 </html>

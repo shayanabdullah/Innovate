@@ -3,7 +3,7 @@ import Images from './Images'
 import traffic from '../assets/traffic.svg'
 const Traffic = () => {
   return (
-<section className='lg:pt-[112px] lg:pb-[96px] md:pt-20 md:pb-16 sm:pt-16 sm:pb-14 pt-14 pb-12'>
+<section className='lg:pt-[112px] lg:pb-[96px] md:pt-20 md:pb-16 sm:pt-16 sm:pb-14 pt-14 pb-12 bg-white'>
     <div className="container">
         <div className="row flex flex-wrap lg:gap-x-[10%] md:justify-center sm:justify-center justify-center">
             <div className="left lg:max-w-[45%] w-full md:text-center sm:text-center text-center lg:text-left">

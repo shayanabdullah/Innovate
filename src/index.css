@@ -12,6 +12,51 @@
 
 
 .container{
-    max-width: 1280px;
+    max-width: 1320px;
     margin: 0 auto;
+}
+#loader{
+    background: #c0b8f8 url(./assets/preloader-1.gif) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    position : fixed;
+    background-size:min(150px, 100%);
+    z-index : 10000000;
+    
+}
+
+
+@media (max-width:625px) {
+    .box{
+  justify-content: center;
+  row-gap: 50px ;
+  flex-wrap: wrap;
+
+    }
+    .box-2{
+  justify-content: center;
+gap: 40px;
+flex-wrap: wrap;
+
+    }
+
+    .left-2{
+        display: flex;
+        justify-content: center;
+    }
+    .right-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pro-btn button{
+        width: 200px;
+    }
+    .pro-btn{
+        text-align: center;
+    }
+
+ 
 }

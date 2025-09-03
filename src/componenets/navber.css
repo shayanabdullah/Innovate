@@ -37,7 +37,7 @@
         padding: 40px 20px;
         z-index: 100;
         gap: 20px;
-        transition: left 200ms ease-in-out;
+        transition: left 300ms ease-in-out;
     }
 
     .logo {
@@ -86,5 +86,8 @@
         z-index: 99;
         color: white;
         opacity: 1;
+    }
+    ::-webkit-scrollbar{
+        width: 0;
     }
 }
