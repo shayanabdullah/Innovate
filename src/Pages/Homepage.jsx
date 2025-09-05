@@ -3,6 +3,8 @@ import Banner from '../componenets/Banner'
 import CareFeature from '../componenets/CareFeature'
 import Traffic from '../componenets/Traffic'
 import Procces from '../componenets/Procces'
+import Work from '../componenets/Work'
+import Pricing from '../componenets/pricing/Pricing'
 
 const Homepage = () => {
   return (
@@ -11,6 +13,8 @@ const Homepage = () => {
 <CareFeature/>
 <Traffic/>
 <Procces/>
+<Work/>
+<Pricing/>
 </>
   )
 }

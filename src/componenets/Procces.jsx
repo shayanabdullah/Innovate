@@ -4,9 +4,10 @@ import card1 from '../assets/mess-1.png'
 import card2 from '../assets/social.png'
 import card3 from '../assets/market.png'
 import left from '../assets/pro-left.png'
+import './procces.css'
 const Procces = () => {
   return (
-   <section className='lg:py-[120px] py-20 md:py-24 sm:py-20 bg-[#F1FBFB]'>
+   <section className='lg:py-[120px] py-20 md:py-24 sm:py-20 bg-[#F1FBFB]' id='portfolio'>
     <div className="container">
     <div className="text-center w-full">
                   <h5 className='font-nurito font-semibold lg:text-2xl text-lg md:text-xl sm:text-xl text-[#7968EF] pb-2.5'>
@@ -79,7 +80,7 @@ const Procces = () => {
       Turn your visitors into customers with our team of experts. We'll analyze your website and develop a suitable conversion-rate strategy.
     </p>
 <div className="pro-btn">
-<button className='lg:text-lg md:text-lg sm:text-lg font-nurito font-semimbold text-white lg:px-8 lg:py-5 bg-[#6A55EA] rounded-[20px] md:py-[18px] sm:py-[14px] py-[16px] px-5 text-[16px]  sm:px-5  md:px-7 in-btn cursor-pointer mt-12 pro-btn'>Analyze website</button>
+<button className='lg:text-lg md:text-lg sm:text-lg font-nurito font-semimbold text-white lg:px-8 lg:py-5 bg-[#6A55EA] rounded-[20px] md:py-[18px] sm:py-[14px] py-[16px] px-5 text-[16px]  sm:px-5  md:px-7 in-btn cursor-pointer mt-12 pro-btn'><a href="#">Analyze website</a></button>
 </div>
   </div>
 </div>

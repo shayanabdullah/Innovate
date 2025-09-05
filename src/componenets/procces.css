@@ -1,0 +1,35 @@
+
+@media (max-width:625px) {
+    .box{
+  justify-content: center;
+  row-gap: 50px ;
+  flex-wrap: wrap;
+
+    }
+    .box-2{
+  justify-content: center;
+gap: 40px;
+flex-wrap: wrap;
+
+    }
+
+    .left-2{
+        display: flex;
+        justify-content: center;
+    }
+    .right-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pro-btn button{
+        width: 200px;
+    }
+    .pro-btn{
+        text-align: center;
+    }
+
+ 
+}

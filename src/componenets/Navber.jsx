@@ -26,7 +26,7 @@ import Images from './Images';
         <div className="logo">
                 <Images src={logo}/>
             </div>
-            <div className={` flex lg:items-center justify-between navber ${show ? "show": ""} `}>
+            <div className={` flex lg:items-center lg:justify-between navber ${show ? "show": ""} `}>
             <nav className='flex items-center nav relative'>
                 <ul className="flex items-center lg:gap-x-12 md:gap-5 sm:gap-5 nav-ul">
                     <li className='flex items-center'onClick={()=>setShow(!show)}>
@@ -50,13 +50,13 @@ import Images from './Images';
                 </ul>
                 <RxCross2 onClick={()=>setShow(!show)} className={`close ${show== true ? 'opacity-100' :'opacity-0'}`}/>
             </nav>
-            <button className='py-[14px] px-[28px] bg-transparent text-white text-lg font-medium font-nurito border-2 border-solid border-white rounded-[18px] nav-btn lg:ml-15'>Contact us</button>
+            <button className='py-[14px] px-[28px] bg-transparent text-white text-lg font-medium font-nurito border-2 border-solid border-white rounded-[18px] nav-btn lg:ml-15 cursor-pointer'><a href="#">Contact us</a></button>
             </div>
            
         </div>
         <div className="icons text-white lg:hidden" onClick={showHandle}>
             {
-                show == true ? '':<FaBars className='bar'/>
+                show == true ? '':<FaBars className='bar '/>
             }
         </div>
         </div>

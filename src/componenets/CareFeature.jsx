@@ -6,7 +6,7 @@ import card2 from '../assets/card2.png'
 import card3 from '../assets/card3.png'
 const CareFeature = () => {
   return (
-    <section className='pb-16 bg-white'>
+    <section className='pb-16 bg-white' id='about'>
         <div className="container">
             <div className="text-center w-full">
                   <h5 className='font-nurito font-semibold lg:text-2xl text-lg md:text-xl sm:text-xl text-[#7968EF] pb-2.5'>Core feature</h5>
