@@ -1,0 +1,7 @@
+.bg{
+    background: url(../../assets/analytics.png) center center no-repeat ;
+    background-size: cover;
+    width: 100%;
+
+overflow: hidden;
+}

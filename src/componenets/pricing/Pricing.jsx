@@ -126,15 +126,15 @@ const Pricing = () => {
                 </div>
 
                 {/* Mobile cards */}
-                <div className="w-full text-center">
+                <div className="w-full text-center lg:hidden">
                     <h1 className='font-popins font-medium text-xl leading-[160%] text-[#29313D] capitalize text-center sm:pt-6 md:pt-6 pt-6'>
                         Save annually!, <span className='font-semibold'>Up to 40%</span> by paying
                     </h1>
 
                 </div>
 
-                <div className="grid lg:hidden md:px-14 px-12 gap-y-20 md:grid-cols-2 md: gap-8 pt-12 md:justify-center sm:grid-cols-1 grid-cols-1">
-                    <div className="two w-full pt-2 ">
+                <div className="grid lg:hidden md:px-14 px-12  pt-12  sm:grid-cols-2 sm:gap-x-5 sm:gap-y-10  grid-cols-1 md:grid-cols-3">
+                    <div className="two w-full pt-2 sm:mx-auto ">
                         <div className="w-full ">
                             <div className="relative after:absolute after:content-[''] after:bg-[#000] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0   lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[100px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-1 ">
                                 <h1 className='font-popins font-bold text-[28px] leading-[160%] text-[#29313D] capitalize'>personal</h1>
@@ -197,33 +197,34 @@ const Pricing = () => {
                         </div>
 
                     </div>
-                    <div className="four w-full md:col-span-2">
+                    <div className="four sm:max-w-sm w-full sm:mx-auto sm:col-span-2 sm:text-center md:col-span-1">
                         <div className="relative after:absolute after:content-[''] after:bg-[#845A9F] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0  ">
                             <h1 className='font-popins font-bold text-[28px] md:text-center leading-[160%] text-[#29313D] capitalize'>Enterprice </h1>
                             <p className='font-popins font-semibold text-2xl leading-[160%] text-[#29313D] capitalize opacity-75 md:text-center'
                             >$299 <span className='font-medium'>/monthly</span>
                             </p>
-                            <ul className="flex flex-col gap-3 pt-6 md:text-center md:justify-center">
+                            <ul className="flex flex-col gap-3 pt-6 ">
                                     <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60  md:text-center">
                                         keywords result : <span>10,000</span>
                                     </li>
                                     <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60 r md:text-center">
                                         Territories : <span>200+</span>
                                     </li>
-                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60 flex items-center gap-2 md:text-center md:justify-center w-full">
+                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60 flex items-center gap-2 sm:justify-center w-full">
                                         Search by time: <FaCheckSquare className="text-green-500" />
                                     </li>
-                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60 flex items-center gap-2 md:text-center  md:justify-center w-full">
+                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60 flex items-center gap-2 
+                               sm:justify-center   w-full">
                                         Api access : <FaCheckSquare  className="text-green-500" />
                                     </li>
-                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60  flex items-center gap-2 md:text-center  md:justify-center w-full">
+                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60  flex items-center gap-2 sm:justify-center  md:justify-center w-full">
                                         competition metrics : <FaCheckSquare className="text-green-500" />
                                     </li>
-                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60  flex items-center gap-2 md:text-center  md:justify-center w-full">
+                                    <li className="font-popins font-semibold text-xl leading-[160%] text-[#29313D] opacity-60  flex items-center gap-2 sm:justify-center  w-full">
                                         Reports : <FaCheckSquare className="text-green-500" />
                                     </li>
                                 </ul>
-                            <button className='py-[20px] mt-7 w-full bg-[#845A9F] text-white text-xl font-nurito font-semibold cursor-pointer'>Buy Now</button>
+                            <button className='py-[20px] mt-7 w-full bg-[#845A9F] text-white text-xl font-nurito font-semibold cursor-pointer rounded-2xl'>Buy Now</button>
                         </div>
 
                     </div>
