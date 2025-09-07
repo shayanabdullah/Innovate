@@ -15,8 +15,8 @@ const Pricing = () => {
                     <h1 className='font-popins font-semibold lg:text-5xl capitalize text-[#29313D] lg:leading-[150%] text-3xl md:text-4xl sm:text-3xl leading-[130%] lg:pb-16 m-0'>Premium optimization plans</h1>
                 </div>
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 sm:gap-y-15 de-table">
-                    <div className="one w-full lg:pb-16" >
-                        <div className="relative after:absolute after:content-[''] after:bg-[#D2EAFD] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] after:-top-[20px] after:left-0  lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[100px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-1 pr-0  ">
+                    <div className="one w-full lg:pb-10" >
+                        <div className="relative after:absolute after:content-[''] after:bg-[#D2EAFD] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] after:-top-[20px] after:left-0  lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[788px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-[1px] pr-0 before:z-50">
                             <h1 className='font-popins font-medium text-xl leading-[160%] text-[#29313D] capitalize '>
                                 Save annually!, <span className='font-semibold'>Up to 40%</span> by paying
                             </h1>
@@ -27,15 +27,15 @@ const Pricing = () => {
 
                     </div>
 
-                    <div className="two w-full lg:pb-16">
-                        <div className="relative after:absolute after:content-[''] after:bg-[#000] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0   lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[100px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-1">
+                    <div className="two w-full lg:pb-10">
+                        <div className="relative after:absolute after:content-[''] after:bg-[#000] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0   lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[788px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-[1px] before:z-50">
                             <h1 className='font-popins font-bold text-[28px] text-center leading-[160%] text-[#29313D] capitalize'>personal</h1>
                             <p className='font-popins font-semibold text-2xl leading-[160%] text-[#29313D] capitalize opacity-75 text-center'>Free</p>
                         </div>
 
                     </div>
-                    <div className="three w-full lg:pb-16">
-                        <div className="relative after:absolute after:content-[''] after:bg-[#43CB83] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0   lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[100px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-1">
+                    <div className="three w-full lg:pb-10">
+                        <div className="relative after:absolute after:content-[''] after:bg-[#43CB83] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0   lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[788px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-[1px] before:z-50">
                             <h1 className='font-popins font-bold text-[28px] text-center leading-[160%] text-[#29313D] capitalize'>professional </h1>
                             <p className='font-popins font-semibold text-2xl leading-[160%] text-[#29313D] capitalize opacity-75 text-center'>$59
                                 <span className='font-medium'>/monthly</span>
@@ -43,7 +43,7 @@ const Pricing = () => {
                         </div>
 
                     </div>
-                    <div className="four w-full lg:pb-16">
+                    <div className="four w-full lg:pb-10                                                 ">
                         <div className="relative after:absolute after:content-[''] after:bg-[#845A9F] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0  ">
                             <h1 className='font-popins font-bold text-[28px] text-center leading-[160%] text-[#29313D] capitalize'>Enterprice </h1>
                             <p className='font-popins font-semibold text-2xl leading-[160%] text-[#29313D] capitalize opacity-75 text-center'
