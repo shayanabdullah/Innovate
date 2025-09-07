@@ -6,6 +6,7 @@ import Procces from '../componenets/Procces'
 import Work from '../componenets/Work'
 import Pricing from '../componenets/pricing/Pricing'
 import Analytics from '../componenets/pricing/Analytics'
+import Footer from '../componenets/Footer'
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
 <Work/>
 <Pricing/>
 <Analytics/>
+<Footer/>
 </>
   )
 }

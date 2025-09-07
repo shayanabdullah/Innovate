@@ -25,7 +25,7 @@ const Work = () => {
                   <h1 className='font-popins font-semibold text-[28px] pt-7'>Search marketer</h1>
                   <p className='font-nurito font-regular text-[#29313D] text-lg pt-4'>Analyzing negative materials about your brand and addressing them with sentiment analysis and press release distribution.</p>
               </div>
-              <div className="card-2 w-full  overflow-hidden lg:p-0 md:p-0 sm:p-0 pl-3">
+              <div className="card-2 overflow-hidden  max-w-sm w-full mx-auto">
                   <div className="img-box rounded-3xl bg-[#C4C4C4] ">
                     <Images src={card2}/>
                   </div>
@@ -33,7 +33,7 @@ const Work = () => {
                   <p className='font-nurito font-regular text-[#29313D] text-lg pt-4'>Analyzing negative materials about your brand and addressing them with sentiment analysis and press release distribution.</p>
               </div>
         <div className="">
-        <div className="card-3  max-w-sm w-full mx-auto sm:col-span-2 sm:text-center">
+        <div className="card-3  max-w-sm w-full mx-auto  sm:text-center">
                   <div className="img-box rounded-3xl bg-[#C4C4C4] ">
                     <Images src={card2}/>
                   </div>

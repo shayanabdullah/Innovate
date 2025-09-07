@@ -133,7 +133,7 @@ const Pricing = () => {
 
                 </div>
 
-                <div className="grid lg:hidden md:px-14 px-12  pt-12  sm:grid-cols-2 sm:gap-x-5 sm:gap-y-10  grid-cols-1 md:grid-cols-3">
+                <div className="grid lg:hidden md:px-14 px-12  pt-12  sm:grid-cols-2 gap-5 gap-y-14  grid-cols-1 md:grid-cols-3">
                     <div className="two w-full pt-2 sm:mx-auto ">
                         <div className="w-full ">
                             <div className="relative after:absolute after:content-[''] after:bg-[#000] after:w-full after:h-[14px] after:rounded-[10px] py-6 pl-[19px] before:-top-[20px ] after:-top-[20px] after:left-0   lg:before:-top-[20px]  lg:before:absolute lg:before:content-[''] lg:before:bg-[#D7E6F9] lg:before:h-[100px] lg:before:rounded-[10px] lg:before:right-[-20px] lg:before:w-1 ">
