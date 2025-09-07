@@ -4,7 +4,7 @@ const Analytics = () => {
   return (
    <section className=''>
     <div className="container">
-        <div className="w-full bg lg:py-[12 0px] pt-20 pb-9  sm:py-24 md:rounded-[40px] px-5 sm:px-0">
+        <div className="w-full bg lg:py-[120px] pt-20 pb-9  sm:py-24 md:rounded-[40px] px-5 sm:px-0">
             <div className="text-box w-full text-center">
                 <h1 className='font-popins font-semibold lg:text-5xl text-white md:text-[40px] text-4xl lg:leading-[140%] capitalize m-0'>Get your free SEO  analytics</h1>
                 <p className='font-nurito md:text-lg text-[16px] font-normal text-white text-center pt-5 pb-9 capitalize md:leading-[200%] opacity-60'>Paste your website link to get the free 7 days analytics of your website <span className="block">for totaly free</span></p>
