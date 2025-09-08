@@ -18,7 +18,7 @@ const Work = () => {
             </div>
 
             <div className="card-section grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 sm:gap-x-5 sm:gap-y-10  grid-cols-1  gap-8">
-              <div className="card-1 w-full  max-w-sm overflow-hidden lg:p-0 md:p-0 sm:p-0 pl-3">
+              <div className="card-1 w-full max-w-sm mx-auto overflow-hidden lg:p-0 md:p-0 sm:p-0 pl-3">
                   <div className="img-box rounded-3xl bg-[#C4C4C4] ">
                     <Images src={card1}/>
                   </div>

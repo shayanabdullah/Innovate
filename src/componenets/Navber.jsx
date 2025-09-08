@@ -50,7 +50,7 @@ import Images from './Images';
                 </ul>
                 <RxCross2 onClick={()=>setShow(!show)} className={`close ${show== true ? 'opacity-100' :'opacity-0'}`}/>
             </nav>
-            <button className='py-[14px] px-[28px] bg-transparent text-white text-lg font-medium font-nurito border-2 border-solid border-white rounded-[18px] nav-btn lg:ml-15 cursor-pointer'><a href="#contact">Contact us</a></button>
+            <button className='py-[14px] px-[28px] bg-transparent text-white text-lg font-medium font-nurito border-2 border-solid border-white rounded-[18px] nav-btn lg:ml-15 cursor-pointer' ><a href="#contact" className='w-full h-full block'>Contact us</a></button>
             </div>
            
         </div>
